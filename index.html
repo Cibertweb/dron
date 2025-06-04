@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>VSL - Drones y Servicios</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+ 
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom, #003366, #336699);
+      color: white;
+    }
+
+    header {
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 2.2rem;
+      font-weight: bold;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      margin: 2rem 0;
+    }
+
+    iframe {
+      width: 90%;
+      max-width: 800px;
+      height: 450px;
+      border: none;
+      border-radius: 12px;
+    }
+
+    .formulario-contacto {
+      background: white;
+      color: black;
+      max-width: 600px;
+      margin: 0 auto 3rem auto;
+      padding: 2rem;
+      border-radius: 10px;
+    }
+    .btn-info-custom {
+     display: inline-block;
+
+      background: #343;
+      color: white;
+      padding: 15px 30px;
+      border-radius: 10px;
+      font-size: 1.1em;
+      margin: 20px 10px;
+      text-decoration: none;
+      transition: background 0.3s;
+    }
+    .btn-whatsapp {
+      font-size: 1.2rem;
+      padding: 0.75rem 1.5rem;
+      border-radius: 10px;
+    }
+  
+
+    .logod {
+      
+      border-top: 10px;
+      text-align: center;
+      border-radius: 10px 10px 10px 10px;
+    }
+    .card-body {
+      background-color: rgba(255, 255, 255, 0.05);
+      border: 1px solid rgba(255, 255, 255, 0.1);
+      backdrop-filter: blur(5px);
+      color: white;
+    }
+    .card-body img {
+    width: 100%;
+    max-width: 360px;
+    height: 200px;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+   .service-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+  }
+
+  .service-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+  }
+
+
+
+    footer {
+      background-color: #000;
+      color: white;
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    .social-icons a {
+      color: white;
+      font-size: 1.5rem;
+      margin: 0 10px;
+      transition: color 0.3s;
+    }
+
+    .social-icons a:hover {
+      color: #f39c12;
+    }
+
+    
+  </style>
+</head>
+<body>
+
+  <header>
+      <img src="dronlogo.jpg" alt="Champú" width="200px" class="logod">
+    
+  </header>
+  <div class="info-buttons text-center">
+    <h1>Drones Profesionales</h1>
+    <p>Domina el cielo con nuestros drones, aprende con tutoriales y capacítate con nuestros libros y entrenamientos exclusivos.</p>
+     
+    
+    
+  </div>
+
+  <section class="video-container">
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/VctFXa2HvSQ?si=uot4lvYJCINMVwPH" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+  </section>
+ 
+     <div><center><a href="#formulario" class="btn btn-warning btn-info-custom">Pedir Información</a></div></center>
+
+     <!-- Sección de etiquetas de venta de drones -->
+<section class="container my-5">
+  <div class="row text-center text-white">
+    <h2 class="mb-4">Drones Más Populares</h2>
+
+    <!-- Drone 1 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow" style="border-radius: 15px;">
+        <img src="sky360p.png" class="card-img-top" alt="Drone 1" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 250px; object-fit: cover;">
+        <div class="card-body bg-info text-black" style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+          <h5 class="card-title">Drone Falcon X1</h5>
+          <p class="card-text ">
+            Cámara 4K Ultra HD y sistema de vuelo GPS inteligente. 
+            Hasta 30 minutos de autonomía de vuelo.
+          </p>
+          <h6 class="mt-3">Costo: <b>$950 USD</b></h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Drone 2 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow" style="border-radius: 15px;">
+        <img src="sky360.png" class="card-img-top" alt="Drone 2" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 250px; object-fit: cover;">
+        <div class="card-body bg-info text-black" style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+          <h5 class="card-title">SkyPro 360</h5>
+          <p class="card-text">
+            Sensor de obstáculos y transmisión en vivo desde tu móvil. 
+            Ideal para fotografía aérea profesional.
+          </p>
+          <h6 class="mt-3">Costo: <b>$720 USD</b></h6>
+        </div>
+      </div>
+    </div>
+
+    <!-- Drone 3 -->
+    <div class="col-md-4 mb-4">
+      <div class="card h-100 shadow" style="border-radius: 15px;">
+        <img src="aero2.png" class="card-img-top" alt="Drone 3" style="border-top-left-radius: 15px; border-top-right-radius: 15px; height: 250px; object-fit: cover;">
+        <div class="card-body bg-info text-black" style="border-bottom-left-radius: 15px; border-bottom-right-radius: 15px;">
+          <h5 class="card-title">AeroScout Mini</h5>
+          <p class="card-text">
+            Compacto, fácil de volar y resistente al viento.<br>
+            Perfecto para entrenamiento y exploración.
+          </p>
+          <h6 class="mt-3">Costo: <b>$480 USD</b></h6>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Servicios con Efecto Hover -->
+<section class="container my-5">
+  <h2 class="text-center text-white mb-4">Servicios Profesionales</h2>
+  <div class="row text-center">
+
+    <!-- Tutoriales -->
+    <div class="col-md-3 mb-4">
+      <div class="service-card bg-primary text-white rounded h-100 p-4">
+        <i class="bi bi-play-circle-fill display-4 mb-3"></i>
+        <h5>Tutoriales</h5>
+        <p>Aprende a volar drones desde cero con videos paso a paso.</p>
+      </div>
+    </div>
+
+    <!-- Entrenamientos -->
+    <div class="col-md-3 mb-4">
+      <div class="service-card bg-info text-white rounded h-100 p-4">
+        <i class="bi bi-controller display-4 mb-3"></i>
+        <h5>Entrenamientos</h5>
+        <p>Sesiones prácticas para dominar el control de drones profesionales.</p>
+      </div>
+    </div>
+
+    <!-- Asesoría -->
+    <div class="col-md-3 mb-4">
+      <div class="service-card bg-success text-white rounded h-100 p-4">
+        <i class="bi bi-person-check-fill display-4 mb-3"></i>
+        <h5>Asesoría</h5>
+        <p>Te guiamos en la elección y operación de drones según tus necesidades.</p>
+      </div>
+    </div>
+
+    <!-- Software -->
+    <div class="col-md-3 mb-4">
+      <div class="service-card bg-warning text-dark rounded h-100 p-4">
+        <i class="bi bi-laptop display-4 mb-3"></i>
+        <h5>Software</h5>
+        <p>Aplicaciones y herramientas para planificar y analizar tus vuelos.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+
+
+  <!-- Formulario de contacto -->
+  <section id="formulario" class="formulario-contacto">
+    <h3 class="text-center mb-4">Solicita más información</h3>
+    <form id="contacto-form">
+      <div class="mb-3">
+        <label for="nombre" class="form-label">Nombre completo</label>
+        <input type="text" class="form-control" id="nombre" required>
+      </div>
+      <div class="mb-3">
+        <label for="email" class="form-label">Correo electrónico</label>
+        <input type="email" class="form-control" id="email" required>
+      </div>
+      <div class="mb-3">
+        <label for="telefono" class="form-label">Número de teléfono</label>
+        <input type="tel" class="form-control" id="telefono">
+      </div>
+      <div class="mb-4">
+          <label for="dron" class="form-label">Seleccione un modelo de dron</label>
+          <select id="dron" class="form-select" required>
+            <option value="" selected disabled>Elige una opción</option>
+            <option value="Dron SkyView X100">Dron SkyView X100</option>
+            <option value="Dron AeroCapture Pro">Dron AeroCapture Pro</option>
+            <option value="Dron VisionAir 4K">Dron VisionAir 4K</option>
+          </select>
+        </div>
+      <div class="text-center">
+        <button type="submit" class="btn btn-success btn-whatsapp">
+          <i class="bi bi-whatsapp"></i> Enviar por WhatsApp
+        </button>
+      </div>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 DronesTech | Todos los derechos reservados</p>
+    <div class="social-icons mt-3">
+      <a href="#"><i class="bi bi-youtube"></i></a>
+      <a href="#"><i class="bi bi-twitter"></i></a>
+      <a href="#"><i class="bi bi-instagram"></i></a>
+      <a href="#"><i class="bi bi-facebook"></i></a>
+    </div>
+  </footer>
+
+  <!-- Script para enviar a WhatsApp -->
+  <script>
+    document.getElementById('contacto-form').addEventListener('submit', function (e) {
+      e.preventDefault();
+
+      const nombre = document.getElementById('nombre').value.trim();
+      const email = document.getElementById('email').value.trim();
+      const telefono = document.getElementById('telefono').value.trim();
+      const dron = document.getElementById('dron').value.trim();
+      if (!nombre || !email || !telefono || !dron) {
+      alert('Por favor completa todos los campos.');
+      return;
+    }
+
+      const texto = `Hola, me gustaría solicitar información sobre drones.\n\nNombre: ${nombre}\nEmail: ${email}\nTeléfono: ${telefono}\nDron: ${dron}`;
+
+      const url = `https://wa.me/18496561887?text=${encodeURIComponent(texto)}`;
+      window.open(url, '_blank');
+
+      this.reset();
+    });
+  </script>
+
+</body>
+</html>
